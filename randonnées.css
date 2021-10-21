@@ -23,7 +23,7 @@ z-index: 2;
     left: 23%;
 }
 
-.section4rando {
+#section4rando {
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
