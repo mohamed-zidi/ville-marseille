@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Formulaire de contact </title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="formulaire de contact.css" />
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+     <h1 class="titre-contact">CONTACT</h1>
+    <section>
+    <article class="formulaire-contact">
+        <h5>CONTACTER LE WEBMASTER.</h5>
+        <p class="formulaire-informations">Ce formulaire est destiné à nous signaler un dysfonctionnement du site web ou à nous contacter à propos de ce site.
+            Pour toute autre demande, contactez <a class="allo-mairie" href="https://www.marseille.fr/mairie/services-de-proximit%C3%A9/all%C3%B4-mairie">Allo-mairie</a> ou utilisez le formulaire <a class="allo-mairie" href="">écrire au Maire</a>.
+            
+            Ces données, ainsi que votre nom, sont indispensables au traitement de votre demande. Les champs obligatoires sont marqués d'un astérisque rouge (<span class="obligatoire">*</span>)
+            </p>
+        <div>
+            <form action="/page-traitement-donnees" method="post">
+                Civilité<br>
+                <label for="nom">Mlle</label>
+                <input type="radio" name="civilite"> Mlle<br>
+                <label for="nom">Mme</label>
+                <input type="radio" name="civilite"> Mme<br>
+                <label for="nom">M.</label>
+                <input type="radio" name="civilite"> M.<br>
+                <div>
+                    <label for="nom">Votre nom complet (<span class="obligatoire">*</span>)</label>
+                    <input type="text" id="nom" name="nom" placeholder="Freeze Corleone ..." required>
+                </div>
+                <div>
+                    <label for="email">Votre adresse e-mail (<span class="obligatoire">*</span>)</label>
+                    <input type="email" id="email" name="email" placeholder="...@gmail.com" required>
+                </div>
+                <div>
+                    <label for="numéro">Votre numéro de téléphone (<span class="obligatoire">*</span>)</label>
+                    <input type="number" id="numéro" name="numéro" placeholder="+33..." required>
+                </div>
+                <div>
+                    <label for="voie">N° de la voie (<span class="obligatoire">*</span>)</label>
+                    <input type="number" id="voie" name="voie" placeholder="123" required>
+                </div>
+                <div>
+                    <label for="libellé">Libellé de la voie (<span class="obligatoire">*</span>)</label>
+                    <input type="text" id="libellé" name="libellé" placeholder="rue/boulevard/chemin" required>
+                </div>
+                <div>
+                    <label for="code">Code postal (<span class="obligatoire">*</span>)</label>
+                    <input type="number" id="code" name="code" placeholder="13000" required>
+                </div>
+                <div>
+                    <label for="ville">Ville (<span class="obligatoire">*</span>)</label>
+                    <input type="text" id="libellé" name="libellé" placeholder="Marseille" required>
+                </div>
+                <div>
+                    <label for="objet">Objet de votre message (<span class="obligatoire">*</span>)</label>
+                    <input type="text" id="objet" name="objet" placeholder="dysfonctionnement de" required>
+                </div>
+                <div>
+                    <label for="message">Votre message (<span class="obligatoire">*</span>)</label>
+                    <textarea id="message" name="message" placeholder="Bonjour, je vous contacte suite à ...."
+                        required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </article>
+    </section>
+    <div class="haut-de-page">
+        <a href="#"><img src="https://zupimages.net/up/21/41/nngc.png"></a>
+    </div>
+    </main>
+</body>
+</html>
