@@ -98,3 +98,52 @@ h1 {
   font-size: 140%;
 }
 
+
+.footer-dark {                                              /* css footer*/ 
+  /*background-color: black;*/
+  font-weight:bold;
+}
+
+.filtre-transparent{
+    background-image: url("https://zupimages.net/up/21/42/cp54.jpg");
+    background-size: cover;
+}
+
+
+h3 {
+  font-weight:bold;
+  font-size:20px;
+  color: white;
+}   
+      
+     .copyright{
+        color: white;
+        padding-left: 85%;
+        padding-bottom: 2%;
+      }
+
+
+.logo-flex{
+display: flex;
+justify-content:space-around;
+padding-top: 5%;
+}
+
+.row{display: flex;  
+  justify-content: space-around;
+  text-align: 5%;
+  font-size: 20px;
+  padding-top: 2%;
+}
+  
+.but{
+    list-style-image: url("https://zupimages.net/up/21/42/qf47.png");
+    padding: 0;
+    margin:0
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}   
