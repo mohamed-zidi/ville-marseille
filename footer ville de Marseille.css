@@ -50,25 +50,3 @@ a{
     color: white;
 }   
 
-/* css page présentation*/
-
-.titre-presentation{
-    background-image:url("https://zupimages.net/up/21/42/avl5.jpg");
-    width: 1520px;
-    height: 200px;
-    margin-top: 1%;
-   color: rgb(214, 150, 11)!important;
-   text-align:center;
-   font-size: 80px;
-   word-spacing: 0.5em;
-   padding-top:10%
-}
-
-.texte{
-    max-width: 50%;
-    text-align: justify;
-}
-
-.gras{
-    font-weight: bold;
-}
