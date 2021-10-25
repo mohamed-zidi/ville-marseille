@@ -3,21 +3,278 @@
 .titre-presentation{
     background-image:url("https://zupimages.net/up/21/42/avl5.jpg");
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     height: 59%;
     margin-top: 1%;
    color: rgb(214, 150, 11)!important;
    text-align:center;
-   font-size: 80px;
+   font-size: 500%;
    word-spacing: 0.5em;
    padding-top:10%
 }
 
 .texte{
-    max-width: 50%;
+    max-width: 70%;
     text-align: justify;
+    margin: 5%;
+    font-size: 125%;
 }
 
 .gras{
     font-weight: bold;
+}
+
+.space-around-presentation{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* css monuments*/
+.titre-ville{
+  font-size: 200%;
+  padding-left: 5%;
+}
+
+.titre-monuments{
+  font-size: 240%;
+  padding-left: 37%;
+} 
+
+.texte-monuments{
+  max-width: 80%;
+  padding-left: 16%;
+}
+
+.sous-titre-presentation{
+font-size: 170%;
+padding-left: 37%;
+}
+
+.flex-monuments1{
+  display: flex;
+  align-items: stretch; 
+}
+
+.images-monuments{
+  width: 33%;
+  padding-left: 4%;
+}
+
+.flex2{
+  display: flex;
+  flex-direction:column; 
+}
+
+.images-monuments2{
+  width: 40%;
+  margin: 3%;
+margin-left: 30%;
+}
+
+.flex3{
+display: flex;
+flex-wrap:wrap-reverse;
+}
+
+
+.images-monuments3{
+         width: 40%;
+         margin-left: 7%;
+         margin-top: 2%;
+}
+
+/*CSS timeline*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+}
+
+.timeline {
+  position: relative;
+  width: 361%;
+  max-width: 100%;
+  margin: auto;
+  padding: 15px 0;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: black;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.container {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+}
+
+.container.left {
+  left: 0;
+}
+
+.container.right {
+  left: 50%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: #ffffff;
+  border: 4px solid blue;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.container.right::after {
+  left: -8px;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: black;
+  z-index: 1;
+}
+
+.container.right::before {
+  left: 8px;
+}
+
+.container .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.container.left .date {
+  left: 103%;
+}
+
+.container.right .date {
+    right: 103%;
+}
+
+.container .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(50% - 20px);
+  background: white;
+  border: 5px solid blue;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 18px;
+  color: blue;
+  z-index: 1;
+}
+
+.container.left .icon {
+  right: 56px;
+}
+
+.container.right .icon {
+  left: 56px;
+}
+
+.container .content {
+  padding: 30px 90px 30px 30px;
+  background: skyblue;
+  position: relative;
+  border-radius:20px;
+}
+
+.container.right .content {
+  padding: 30px 30px 30px 90px;
+  border-radius:20px;
+}
+
+.container .content {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.container .content p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 20px;
+  color: white !important;
+  font-weight: bold;
+}
+
+@media (max-width: 767.98px) {
+  .timeline::after {
+    left: 90px;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+
+  .container.right {
+    left: 0%;
+  }
+
+  .container.left::after, 
+  .container.right::after {
+    left: 82px;
+  }
+
+  .container.left::before,
+  .container.right::before {
+    left: 100px;
+    border-color: transparent transparent transparent;
+  }
+
+  .container.left .date,
+  .container.right .date {
+    right: auto;
+    left: 15px;
+  }
+
+  .container.left .icon,
+  .container.right .icon {
+    right: auto;
+    left: 146px;
+  }
+
+  .container.left .content,
+  .container.right .content {
+    padding: 30px 30px 30px 90px;
+    border-radius:20px;
+  }
 }
