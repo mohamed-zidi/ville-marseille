@@ -1,0 +1,21 @@
+#titreplage {
+    margin: 8% 25%;
+    font-size: 140%;
+    max-width: 50%;
+    min-width: 40%;
+    text-align: center;
+}
+
+.sectionplages {
+    max-width: 45%;
+    min-width: 40%;
+    padding: 0 15% 8% 15%;
+    border-bottom: black 1px solid;
+    margin-left: 12%;
+}
+
+#textboxplage {
+    background-color: #FFB740;
+    box-shadow: black 6px 6px 6px;
+    padding: 2%;
+}
