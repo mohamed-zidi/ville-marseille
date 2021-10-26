@@ -1,0 +1,257 @@
+/*css du header*/
+
+body {
+    width: 100%;
+    margin: auto;
+    min-width: 600px;
+    max-width: 6000px;
+  }
+  
+  .Grand-titre{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 5%;
+    transition: 2s;
+  }
+
+  .Grand-titre:hover{  color: #00a2fb;
+    background-color:  #444444;  
+   
+ }
+  
+  li {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    padding-bottom: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #00a2fb;
+  }
+  
+  .titre-header {
+    padding-top: 10px;
+    background-color: #249bd3;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .wrap {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+    background-color: rgb(10, 8, 138);
+  }
+  .navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: rgb(10, 8, 138);
+  }
+  .navbar li {
+    height: auto;
+    width: 317.1px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color:#249bd3;
+  }
+
+  .navbar a {
+    padding: 18px 0;
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  .navbar li:hover,
+  a:hover {
+    background-color: #444444;
+  }
+  .navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li:hover ul {
+    display: block;
+  }
+  .navbar li ul li {
+    background-color: #444444;
+  }
+  .navbar li ul li a {
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 1px solid #c9d4d8;
+    border-bottom: 1px solid #444444;
+  }
+  .navbar li ul li a:hover {
+    background-color: #a3a1a1;
+  }
+
+  /*css de la barre de recerche*/
+
+  .form-search{position: absolute;
+  top: 45%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding-bottom: 5%;
+}
+
+input{position: relative;
+display:inline-block ;
+font-size: 20px; 
+box-sizing: border-box;
+transition:.5s ;
+}
+
+input[type="text"]
+{width:685px;
+height:55px;
+outline: none;
+padding:0 25px;
+border-radius:25px 0 0 25px ;
+
+}
+
+input[type="submit"]
+{position: relative;
+  left: -5px;
+  border-radius: 0 25px 25px 0;
+  width:200px;
+  height:55px;
+outline: none;
+cursor:pointer;
+background-color: #00a2fb;
+}
+
+ /* css de la page d'accueil*/
+
+.back-accueil{background-image:url(https://zupimages.net/up/21/42/y9bo.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+
+ .titre-accueil{margin-top: 15%;
+  text-align: center;
+  font-size: 400%;
+  color: white
+}
+
+.accueil{display: flex;
+  flex-wrap: wrap;
+  margin-left: 7%;
+}
+
+.accueil1{border: 2px solid;
+  margin: 2%; 
+  background-color: white;
+  padding: 2%;
+}
+
+.titre-theme{
+  display: flex;
+  justify-content:space-around;
+  flex-flow: wrap;
+  margin-top: 5%;
+}
+
+
+.image-theme{max-width: 90%;
+max-height: 50%;
+}
+
+.accueil2{margin: 0%;
+  padding:0% ;
+}
+
+  .titre-video{
+    font-size: 500%;
+    color: #feb506;
+   position: relative;
+   right: 5%;
+  }  
+
+.video{
+padding-left: 18%;
+}
+
+.avant-footer{background:#00a2fb;
+text-align: center;
+background-size: cover;
+margin-top: 8%;
+margin-bottom: 8%;
+padding: 8%;
+}
+
+button{cursor: pointer;
+  background-color:#444444 ;
+ font-size: 130%;
+ color: whitesmoke;
+}
+
+.explorer{font-size: 350%;
+}
+
+ 
+/* CSS du footer*/
+
+
+.footer-dark {
+  /*background-color: black;*/
+  font-weight:bold;
+}
+
+.filtre-transparent{
+    background-image: url("https://zupimages.net/up/21/42/cp54.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h3 {
+  font-weight:bold;
+  font-size:20px;
+  color: white;
+}   
+      
+     .copyright{
+        color: white;
+        padding-left: 85%;
+        padding-bottom: 2%;
+      }
+
+
+.logo-flex{
+display: flex;
+justify-content:space-around;
+padding-top: 5%;
+}
+
+.row{display: flex;  
+  justify-content: space-around;
+  text-align: 5%;
+  font-size: 20px;
+  padding-top: 2%;
+}
+  
+.but{
+    list-style-image: url("https://zupimages.net/up/21/42/qf47.png");
+    padding: 0;
+    margin:0
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}   
