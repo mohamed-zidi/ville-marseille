@@ -1,0 +1,65 @@
+ /*css des page annuaire des musées et listes des parcs */
+
+ .texte-musee{margin-top: 8%;
+ }
+
+ .texte-musee2{
+   display: flex;
+ justify-content: space-around;
+background-image: linear-gradient(90deg, #249bd3  ,white 60%);
+}
+
+ .texte-musee3{text-align: center;
+   font-size: 25px;
+ }
+
+ .musse3-padding{
+   padding-top: 5%;}
+
+ .img-musee{width:650px;
+ height: 450px;}
+
+ table{
+   border: 4px solid;
+   border-spacing:1px;
+  width:100%;
+   text-align: center;
+   background-color:rgb(160, 216, 238);
+ margin-top:5%;
+margin-bottom: 3%;}
+
+td{border: 1px solid;
+ padding:15px;
+}
+
+.grayscale img {
+   -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+   -webkit-transition: .2s ease-in-out;
+   transition: .2s ease-in-out;
+}
+.grayscale:hover img {
+   -webkit-filter: grayscale(0);
+   filter: grayscale(0);
+}
+
+.zoom img {
+   -webkit-transform: scale(1);
+   transform: scale(1);
+   -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+}
+.zoom:hover img {
+   -webkit-transform: scale(1.3);
+   transform: scale(1.3);
+}
+
+.slide img {
+   margin-left: 0px;
+   -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+}
+.slide:hover img {
+   margin-left: -30px;
+}
+
