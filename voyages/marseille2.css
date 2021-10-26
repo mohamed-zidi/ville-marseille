@@ -1,0 +1,30 @@
+ /*css des page annuaire des musées et listes des parcs */
+
+ .texte-musee2{
+   display: flex;
+ justify-content: space-around;
+background-image: linear-gradient(90deg, #249bd3  ,white 60%);
+}
+
+ .texte-musee3{text-align: center;
+   font-size: 25px;
+ }
+
+ .musse3-padding{
+   padding-top: 5%;}
+
+ .img-musee{width:650px;
+ height: 450px;}
+
+ table{
+   border: 4px solid;
+   border-spacing:1px;
+  width:100%;
+   text-align: center;
+   background-color:rgb(160, 216, 238);
+ margin-top:5%;
+margin-bottom: 3%;}
+
+td{border: 1px solid;
+ padding:15px;
+}
